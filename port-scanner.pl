@@ -16,7 +16,7 @@ for my $port ($start_port..$end_port) {
     );
 
     if ($socket) {
-        print " ✔️✔️ Port $port is open ✔️✔️\n";
+        print "  ✔️✔️ Port $port is open ✔️✔️\n";
         close($socket);
     }else{
         print " ✖️✖️ Port $port is closed ✖️✖️\n";
